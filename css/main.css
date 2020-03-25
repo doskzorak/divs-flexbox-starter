@@ -87,7 +87,7 @@ textarea {
 .browserupgrade {
     margin: 0.2em 0;
     background: #ccc;
-    color: #000;
+    color: #a9a9a9;
     padding: 0.2em 0;
 }
 
@@ -109,11 +109,49 @@ body {
   background: #000000;
 }
 
+header {
+    font-family; 'Source Sans Pro';
+    font-size: 3em;
+    color: #fff;
+    border: solid 1px #ffffff;
+    margin: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.description {
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color:#ffffff;
+    padding: 4px;
+}
+
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   font-weight: 700;
   display: flex;
   justify-content: space-between;
+}
+
+.div-0 {
+    color: #fff;
+    line-height: 1.5em;
+    background-color: #000000;
+    height: 150px;
+    display: flex;
+    width: 100%;
+    justify-content: left;
+    align-items: left;
+}
+
+.bold-text {
+    font-variant: small-caps;
+    font-size: 22px;
 }
 
 .div-1, .div-2, .div-3 {
@@ -127,9 +165,13 @@ body {
   width: 30%;
   justify-content: center;
   align-items: center;
+  margin: 8px;
 }
 
-
+.div-1, .div-2 {
+    border-right: solid #ffffff 1px;
+    align-items: center;
+}
 
 
 /* ==========================================================================
